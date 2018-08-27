@@ -8,7 +8,7 @@ let employers = document.querySelectorAll('.hire-employers-item');
 console.log(employers);
 
 let mainFunction = document.querySelector('.main-functions');
-let btn = mainFunction.getElementsByTagName('button');
+let btn = mainFunction.getElementsByTagName('button')[0];
 console.log(btn);
 
 let chooseItem = document.querySelector('.choose-item'),
@@ -16,12 +16,12 @@ let chooseItem = document.querySelector('.choose-item'),
 		countBudgetValue = document.querySelector('.count-budget-value');
 console.log(chooseItem, timeValue, countBudgetValue);
 
-let budgetV = document.getElementsByClassName('budget-value'),
-		nameV = document.getElementsByClassName('name-value'),
-		goodsV = document.getElementsByClassName('goods-value'),
-		itemsV = document.getElementsByClassName('items-value'),
-		employersV = document.getElementsByClassName('employers-value'),
-		discountV = document.getElementsByClassName('discount-value'),
-		isopenV = document.getElementsByClassName('isopen-value');
+let budgetV = document.getElementsByClassName('budget-value')[0],
+		nameV = document.getElementsByClassName('name-value')[0],
+		goodsV = document.getElementsByClassName('goods-value')[0],
+		itemsV = document.getElementsByClassName('items-value')[0],
+		employersV = document.getElementsByClassName('employers-value')[0],
+		discountV = document.getElementsByClassName('discount-value')[0],
+		isopenV = document.getElementsByClassName('isopen-value')[0];
 
 console.log(nameV, budgetV, goodsV, itemsV, employersV, discountV, isopenV)
